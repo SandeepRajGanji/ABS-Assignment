@@ -1,0 +1,77 @@
+.search-add-record-container{
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.search-container{
+  display: flex;
+  align-items: center;
+  max-width: 450px;
+}
+.input-group-text{
+  cursor: pointer;
+  border-radius: 3px;
+}
+.icons-container{
+  display: flex;
+  align-items: center;
+}
+.add-icon{   
+  color:orange;
+  cursor:pointer;
+  margin-top: 10px;
+}
+.excel-icon{
+  color:green;
+  cursor:pointer;
+  margin-top: 10px;
+}
+.div1{
+  overflow: scroll;
+  width:calc(100vw - 200px);
+  height:calc(100vh -50px);
+  margin-top: 20px;
+  
+}
+.div1 th{
+  position: sticky;
+  top:0;
+  min-width: 80px;
+  background-color: white; 
+}
+
+.table{
+  border-spacing: 0;
+}
+
+.th{
+  position: sticky;
+  top:0;
+  min-width: 80px; 
+}
+.td{
+  min-width: 80px; 
+}
+.div1 th:nth-child(1),
+.div1 td:nth-child(1){
+  position: sticky;
+  left:0;
+  z-index: 2;
+}
+.div1 th:nth-child(2),
+.div1 td:nth-child(2){
+  position: sticky;
+  left:0;
+  z-index: 2;
+}
+.records-message-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 85vw;
+  margin-top: 10px;
+  color:blueviolet
+}

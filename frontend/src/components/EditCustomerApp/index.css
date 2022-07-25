@@ -1,0 +1,10 @@
+
+
+.close{
+    cursor: pointer;
+    color: red;
+}
+.save{
+    color: green;
+    cursor: pointer;
+}
